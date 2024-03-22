@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0bbbb; /* Light gray background */
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8caca; /* White container background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333; /* Dark gray text color */
+  }
+  
+  #organizerDashboard,
+  #eventList,
+  #eventRegistration,
+  #feedbackForm {
+    margin-top: 20px;
+    border: 1px solid #151414;
+    padding: 10px;
+    background-color: #f8dada; /* Light gray background for sections */
+  }
+  
+  .event-item {
+    border-bottom: 1px solid #ddd; /* Gray border between event items */
+    padding: 10px;
+  }
+  
+  .event-item:last-child {
+    border-bottom: none; /* Remove border for last event item */
+  }
+  
+  button {
+    background-color: #007bff; /* Blue button background */
+    color: #fff; /* White button text color */
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
